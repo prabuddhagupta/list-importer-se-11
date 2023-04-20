@@ -17,8 +17,7 @@ import com.rdc.scrape.ScrapeSession;
 import com.se.rdc.core.utils.CachedDbObject;
 import com.se.rdc.core.utils.FileLogger;
 import net.sf.ehcache.config.CacheConfiguration;
-import org.apache.commons.configuration.BaseConfiguration;
-import org.apache.commons.configuration.SystemConfiguration;
+import org.apache.commons.configuration.*;
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -345,8 +344,8 @@ public class ScrapianContextSE extends ScrapianContext {
     public void setGitHubConfig() {
         String localGithubCache = System.getProperty("user.home") + "/Github_cache/local_clone/";
 
-        SystemConfiguration configuration = new SystemConfiguration();
-        System.out.println("tdmdir: "+System.getProperty("java.io.tmpdir"));
+//        SystemConfiguration configuration = new SystemConfiguration();
+        Configuration configuration = new BaseConfiguration();
         configuration.setProperty(gitHub_CacheBaseDir_key, System.getProperty("java.io.tmpdir") + "/");
         configuration.setProperty(gitHub_localCloneDir_key, localGithubCache);
         configuration.setProperty(gitHub_OAuth2Token_key, gitHub_OAuth2Token);
@@ -390,8 +389,10 @@ public class ScrapianContextSE extends ScrapianContext {
     }
 
     private void configureLog4J() {
-        String log4JPropertyFile = "../assets/config/log4j.properties";
+//        String log4JPropertyFile = "../assets/config/log4j.properties";
+        String log4JPropertyFile = "D:\\SEBPO\\list-importer-se-11\\assets\\config\\log4j.properties";
         try {
+            System.out.println("Log4j file path: " + log4JPropertyFile);
             PropertyConfigurator.configure(log4JPropertyFile);
             //info("Wow! I'm configured!");
         } catch (Exception e) {
