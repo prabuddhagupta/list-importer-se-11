@@ -1,0 +1,9 @@
+1. Eclipse Groovy plugin repo links:
+ - https://github.com/groovy/groovy-eclipse/wiki
+
+2. Regex debug/verification tools
+- https://regex101.com/
+- http://java-regex-tester.appspot.com/
+
+3. Unicode code point/value test tools:
+- http://app.live-start.com/magic-status/char.htm

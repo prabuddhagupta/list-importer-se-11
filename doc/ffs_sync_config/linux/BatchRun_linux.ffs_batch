@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FreeFileSync XmlType="BATCH" XmlFormat="11">
+    <Compare>
+        <Variant>TimeAndSize</Variant>
+        <Symlinks>Exclude</Symlinks>
+        <IgnoreTimeShift/>
+    </Compare>
+    <Synchronize>
+        <Variant>TwoWay</Variant>
+        <DetectMovedFiles>false</DetectMovedFiles>
+        <DeletionPolicy>RecycleBin</DeletionPolicy>
+        <VersioningFolder Style="Replace"/>
+    </Synchronize>
+    <Filter>
+        <Include>
+            <Item>*</Item>
+        </Include>
+        <Exclude>
+            <Item>/.fseventsd/</Item>
+            <Item>/.Spotlight-V100/</Item>
+            <Item>/.Trashes/</Item>
+            <Item>*/.DS_Store</Item>
+            <Item>*/._.*</Item>
+            <Item>/System Volume Information/</Item>
+            <Item>/$Recycle.Bin/</Item>
+            <Item>/RECYCLER/</Item>
+            <Item>/RECYCLED/</Item>
+            <Item>*/desktop.ini</Item>
+            <Item>*/thumbs.db</Item>
+            <Item>*/.gradle/</Item>
+            <Item>*/.idea/</Item>
+            <Item>*.iml|</Item>
+            <Item>*/build/</Item>
+            <Item>*/_gsdata_/</Item>
+            <Item>*/gen/</Item>
+            <Item>*/tmp/</Item>
+            <Item>*/out/</Item>
+            <Item>*/nbproject/</Item>
+            <Item>*/manifest.mf</Item>
+            <Item>*/build.xml</Item>
+            <Item>*/._*|</Item>
+            <Item>*/.nb-gradle/*</Item>
+            <Item>/android/.git/</Item>
+            <Item>*.classpath|*.project|</Item>
+            <Item>*/.settings/</Item>
+            <Item>*/target/</Item>
+            <Item>*.orig|</Item>
+            <Item>*/.svn/</Item>
+            <Item>*/RDCScrapper/output/</Item>
+            <Item>/office_project/RDCScrapper/gradle/wrapper/gradle-wrapper.properties</Item>
+            <Item>*.xls#|</Item>
+            <Item>*/AFrameworkCore/repos/</Item>
+        </Exclude>
+        <TimeSpan Type="None">0</TimeSpan>
+        <SizeMin Unit="None">0</SizeMin>
+        <SizeMax Unit="None">0</SizeMax>
+    </Filter>
+    <FolderPairs>
+        <Pair>
+            <Left>/media/omar/Projects/projects</Left>
+            <Right>/home/omar/Dropbox/Projects</Right>
+        </Pair>
+    </FolderPairs>
+    <Errors Ignore="false" Retry="0" Delay="5"/>
+    <PostSyncCommand Condition="Completion"/>
+    <Batch>
+        <ProgressDialog Minimized="true" AutoClose="true"/>
+        <ErrorDialog>Show</ErrorDialog>
+        <PostSyncAction>None</PostSyncAction>
+        <LogfileFolder Limit="0">/home/omar/tmp</LogfileFolder>
+    </Batch>
+</FreeFileSync>

@@ -1,0 +1,70 @@
+group 'com.se.rdc.prod'
+version '1.0-SNAPSHOT'
+
+//apply plugin: 'idea'
+apply plugin: 'groovy'
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+configurations {
+    custom
+}
+
+
+dependencies {
+    //exclusive se dependencies
+    compile group: 'org.apache.ivy', name: 'ivy', version: '2.5.0'
+    compile group: 'org.mapdb', name: 'mapdb', version: '3.0.5'
+    compile group: 'com.h2database', name: 'h2', version: '1.4.195'
+
+    //rdc dependencies
+    compile group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.4.7'
+    compile group: 'net.sf.ehcache', name: 'ehcache', version: '2.9.0'
+    compile group: 'commons-net', name: 'commons-net', version: '2.0'
+    //compile group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: '2.33.0'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: '3.141.5'
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-support', version: '3.141.5'
+    //compile group: 'org.seleniumhq.selenium', name: 'selenium-support', version: '2.33.0'
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.5'
+    //compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.0.0'
+// https://mvnrepository.com/artifact/net.sourceforge.htmlunit/htmlunit
+    //compile group: 'net.sourceforge.htmlunit', name: 'htmlunit', version: '2.41.0'
+    // https://mvnrepository.com/artifact/net.sourceforge.htmlunit/htmlunit-core-js
+    compile group: 'net.sourceforge.htmlunit', name: 'htmlunit-core-js', version: '2.41.0'
+    // https://mvnrepository.com/artifact/org.jsoup/jsoup
+    compile group: 'org.jsoup', name: 'jsoup', version: '1.9.2'
+// https://mvnrepository.com/artifact/com.opencsv/opencsv
+    compile group: 'com.opencsv', name: 'opencsv', version: '5.0'
+    // https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml
+    compile group: 'org.apache.poi', name: 'poi-ooxml', version: '5.0.0'
+
+
+
+    //compile group: 'net.sourceforge.htmlunit', name: 'htmlunit', version: '2.12'
+
+   /* compile('net.sourceforge.htmlunit:htmlunit:2.54.0') {
+        //exclude module: 'xml-apis'
+        //exclude module: 'xerces'
+    }*/
+//    compile('net.sourceforge.htmlunit:htmlunit:2.41.0') {
+//        //exclude module: 'xml-apis'
+//        //exclude module: 'xerces'
+//    }
+
+    //needed for groovy grape
+   /* compile('org.apache.ivy:ivy:2.4.0') {
+        //exclude module: 'xml-apis'
+        //exclude module: 'xerces'
+    }*/
+    compile group: 'org.eclipse.mylyn.github', name: 'org.eclipse.egit.github.core', version: '2.1.5'
+    compile group: 'org.eclipse.jgit', name: 'org.eclipse.jgit', version: '4.8.0.201706111038-r'
+
+    compile fileTree(dir: 'lib', include: '*.jar')
+    testCompile group: 'junit', name: 'junit', version: '4.0'
+}

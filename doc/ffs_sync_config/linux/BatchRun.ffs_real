@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FreeFileSync XmlType="REAL">
+    <Directories>
+        <Item>/home/omar/Dropbox/Projects</Item>
+        <Item>/media/omar/Projects/projects</Item>
+    </Directories>
+    <Delay>120</Delay>
+    <Commandline>"/usr/bin/FreeFileSync" "/home/omar/Dropbox/Projects/sync_config/linux/BatchRun_linux.ffs_batch"</Commandline>
+</FreeFileSync>

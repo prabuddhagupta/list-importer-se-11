@@ -1,0 +1,487 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0">
+	<xs:annotation>
+		<xs:documentation>ScrapeEntities contain information about persons and organizations. 
+	  - name - The entity name
+	  - type - Either 'O' for organizations or 'P' for person entites.
+	  - event - Description of the event this entity is scraped for. In the absence of an actual
+	        event the site or source often implies the event. For intance an entity that is present on a 
+		    sex offender web site's event is 'entity is present on the xyz sex offender website'. 
+		 
+		    There must be at least one scrape event for an entity. There can be multiple events, for instance
+		    and article about an entity who has been convicted of securities fraud and accused of murder. 
+	
+	  - address - Any addresses related to an entity, could be past and/or present employement and home
+	    addresses. 
+		
+	  - birthPlace - If the address is the entities place of birth this field should be set to true.
+	  
+	  - rawFormat - The raw website format of the address. For many sites it is difficult or nearly impossible
+		    to structure the address into its constituent components without human intervention. The 
+			rawFormat field preserves the address in its original context.
+			
+	  - identification - Identifying documents, e.g. Drivers License info, Passport info, Visa info etc.				  
+	    
+	</xs:documentation>
+	</xs:annotation>
+	<xs:element name="scrapeEntities">
+		<xs:complexType>
+			<xs:sequence minOccurs="1" maxOccurs="unbounded">
+				<xs:element ref="entity"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="entity">
+		<xs:complexType>
+			<xs:sequence>
+
+				<xs:element name="name" type="xs:string" minOccurs="1" maxOccurs="1"/>
+				<xs:element name="type" type="type" minOccurs="1" maxOccurs="1"/>
+				<xs:element name="events" type="events" minOccurs="1" maxOccurs="1"/>
+				<xs:element name="addresses" type="addresses" minOccurs="0"/>
+				<xs:element name="dobs" type="dobs" minOccurs="0"/>
+				<xs:element name="identifications" type="identifications" minOccurs="0"/>
+				<xs:element name="sources" type="sources" minOccurs="1"/>
+				<xs:element name="remarks" type="remarks" minOccurs="0"/>
+				<xs:element name="languages" type="languages" minOccurs="0"/>
+				<xs:element name="citizenships" type="citizenships" minOccurs="0"/>
+				<xs:element name="nationalities" type="nationalities" minOccurs="0"/>
+				<xs:element name="urls" type="urls" minOccurs="0"/>
+				<xs:element name="imageUrls" type="imageUrls" minOccurs="0"/>
+				<xs:element name="aliases" type="aliases" minOccurs="0"/>
+				<xs:element name="positions" type="positions" minOccurs="0"/>
+				<xs:element name="occupations" type="occupations" minOccurs="0"/>
+				<xs:element name="heights" type="heights" minOccurs="0"/>
+				<xs:element name="weights" type="weights" minOccurs="0"/>
+				<xs:element name="eyeColors" type="eyeColors" minOccurs="0"/>
+				<xs:element name="complexions" type="complexions" minOccurs="0"/>
+				<xs:element name="hairColors" type="hairColors" minOccurs="0"/>
+				<xs:element name="scarsMarks" type="scarsMarks" minOccurs="0"/>
+				<xs:element name="sexes" type="sexes" minOccurs="0"/>
+				<xs:element name="builds" type="builds" minOccurs="0"/>
+				<xs:element name="races" type="races" minOccurs="0"/>
+				<xs:element name="physicalDescriptions" type="physicalDescriptions" minOccurs="0"/>
+				<xs:element name="associations" type="associations" minOccurs="0"/>
+			</xs:sequence>
+		   <xs:attribute name="link"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:simpleType name="type">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="O"/>
+			<xs:enumeration value="P"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="events">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="event" type="event" minOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="event">
+		<xs:sequence>
+			<xs:element name="date" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="(0[1-9]|1[012])[- /.](0[1-9]|[012][0-9]|3[01])[- /.](19|20)\d\d"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="description" minOccurs="1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+					    <xs:minLength value='2'/>
+						<xs:maxLength value="750"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="endDate" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+							<xs:maxLength value="10"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="riskCode" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="5"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="subEventCode" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="5"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="addresses">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="address" type="address" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="address">
+		<xs:sequence>
+			<xs:element name="address1" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="200"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="birthPlace" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="city" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="100"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="country" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="100"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="postalCode" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="20"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="province" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="200"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="rawFormat" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="1020"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="type" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="10"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>			
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="dobs">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="dob" type="dob" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="dob">
+		<xs:sequence>
+			<xs:element name="circa" type="xs:boolean" minOccurs="0"/>
+			<xs:element name="day" type="xs:string" minOccurs="0"/>
+			<xs:element name="endYear" type="xs:string" minOccurs="0"/>
+			<xs:element name="month" type="xs:string" minOccurs="0"/>
+			<xs:element name="startYear" minOccurs="0"/>
+			<xs:element name="year" type="xs:string" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="identifications">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="identification" type="identification" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="identification">
+		<xs:sequence>
+			<xs:element name="country" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="100"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="location" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="100"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="type" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="50"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="value" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="250"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="sources">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="source" type="source" minOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="source">
+		<xs:sequence>
+			<xs:element name="name" minOccurs="1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="500"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="url" minOccurs="1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="1000"/>
+						<xs:pattern value="http.*"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="description" minOccurs="1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+					    <xs:minLength value='2'/>
+						<xs:maxLength value="1000"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="remarks">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="remark" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="2000"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="languages">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="language" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="200"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="citizenships">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="citizenship" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="50"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="nationalities">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="nationality" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="150"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="urls">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="url" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="http.*"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="imageUrls">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="imageUrl" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="http.*"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="aliases">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="alias" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="300"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="positions">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="position" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="500"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="occupations">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="occupation" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="400"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="heights">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="height" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="50"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="weights">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="weight" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="50"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="eyeColors">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="eyeColor" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="50"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="complexions">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="complexion" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="50"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="hairColors">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="hairColor" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="50"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="scarsMarks">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="scarMark" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="500"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="sexes">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="sex" minOccurs="0" maxOccurs="unbounded">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="F"/>
+						<xs:enumeration value="M"/>
+						<xs:enumeration value="Female"/>
+						<xs:enumeration value="FEMALE"/>
+						<xs:enumeration value="Male"/>
+						<xs:enumeration value="MALE"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="builds">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="build" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="200"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="races">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="race" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="50"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="physicalDescriptions">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="physicalDescription" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="500"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="associations">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="association" minOccurs="0">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="200"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

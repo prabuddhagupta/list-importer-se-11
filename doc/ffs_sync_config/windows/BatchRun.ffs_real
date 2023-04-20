@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FreeFileSync XmlType="REAL">
+    <Directories>
+        <Item>C:\Dropbox\Projects</Item>
+        <Item>E:\projects</Item>
+    </Directories>
+    <Delay>60</Delay>
+    <Commandline>"C:\Program Files\FreeFileSync\FreeFileSync.exe" "E:\projects\sync_config\windows\ProjectSync_BatchRunner.ffs_batch"</Commandline>
+</FreeFileSync>

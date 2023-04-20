@@ -1,0 +1,8 @@
+<products>
+  <product id="1">
+    <skus>
+      <sku>12345</sku>
+      <sku>67890</sku>
+    </skus>
+  </product>
+<products>

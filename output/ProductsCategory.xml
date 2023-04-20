@@ -1,0 +1,12 @@
+<products>
+  <product id="1">
+    <categories>
+      <category id="1" />
+      <category id="2" />
+    </categories>
+    <skus>
+      <sku>12345</sku>
+      <sku>67890</sku>
+    </skus>
+  </product>
+</products>

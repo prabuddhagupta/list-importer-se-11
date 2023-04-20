@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="RDC" type="Application" factoryName="Application">
+    <output_file path="$PROJECT_DIR$/output/1.txt" is_save="true" />
+    <option name="MAIN_CLASS_NAME" value="com.se.rdc.core.ScrapianEngineSE" />
+    <module name="development_main" />
+    <option name="PROGRAM_PARAMETERS" value="file:$PROJECT_DIR$/development/src/main/groovy/current_scripts/us_sc_dop_most_wanted.groovy" />
+    <option name="VM_PARAMETERS" value="-Xmx1200m -Dfile.encoding=Cp1252 -Dhttp.config=&quot;http.properties-no-proxy.xml&quot; -Dxml.out=%1.xml" />
+    <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/output" />
+    <method />
+  </configuration>
+</component>

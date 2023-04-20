@@ -1,0 +1,8 @@
+Script name: New Scraper Request - Ukraine State Committee Sanctions List
+Ticket link: https://github.com/RegDC/li-management/issues/675
+Issue: It put the village into city field and district into street field 
+version num : eef7c8953b3554121a3e9f88f18d3d0edcc328cb
+address1: Loy Karez village
+city: Spin Boldak District | province: Kandahar              | country: AFGHANISTA
+
+

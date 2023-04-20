@@ -1,0 +1,2 @@
+1. For multi threaded script, follow this context setup -
+- context.setup([socketTimeout: 60000, connectionTimeout: 60000, retryCount: 5, multithread: true]);

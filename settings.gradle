@@ -1,0 +1,4 @@
+rootProject.name = 'RDCScrapper'
+
+include(':development')
+include(':production')

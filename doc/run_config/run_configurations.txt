@@ -1,0 +1,46 @@
+
+Main Calass
+============
+com.se.rdc.core.ScrapianEngineSE
+
+
+Programme arguments
+====================
+<resource_path>/src/main/groovy/current_scripts/<script_name>
+
+ie.-
+file:/E:/projects/java_se/RDCScrapper/src/main/groovy/current_scripts/nv_sex_offenders.groovy
+
+VM arguments
+=============
+-Xmx1200m -Xms2048M -Xmx4096M -Xss4M -Dfile.encoding=Cp1252 -Dhttp.config="http.properties-no-proxy.xml" -Dxml.out=%1.xml
+
+for StackOverflow: -Xms2048M -Xmx4096M -Xss4M -XX:+CMSClassUnloadingEnabled
+-XX:MaxDirectMemorySize=20G
+
+Working Directory
+=================
+In ¨Other¨ option paste :
+${workspace_loc:RdcScrapper/output}
+
+Custom pdf directory
+====================
+-Dcom.rdc.importer.scrapian.PdfWorkDir="../assets/pdf"
+
+Proxy settings
+==================
+(Add in vm verables)
+-Dcom.rdc.importer.proxyServer=usproxy2.sebpo.net:3128
+
+sebpo server 1: -Dcom.rdc.importer.proxyServer=usproxy1.sebpo.net:3128
+sebpo server 2: -Dcom.rdc.importer.proxyServer=usproxy2.sebpo.net:3128  (better speed)
+
+more ip/port:
+- https://www.sslproxies.org/
+- http://freeproxylists.net/?c=US&pt=80&s=u
+
+
+Enable invoke params print in console
+======================================
+(Add in vm verables, Default value : true)
+ -Dparams-print=false

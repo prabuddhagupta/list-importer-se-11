@@ -1,0 +1,19 @@
+<code_scheme name="RDC" version="173">
+  <codeStyleSettings language="Groovy">
+    <option name="SPACE_WITHIN_BRACES" value="false" />
+    <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="false" />
+    <option name="KEEP_SIMPLE_CLASSES_IN_ONE_LINE" value="false" />
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="JAVA">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+</code_scheme>

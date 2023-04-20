@@ -1,0 +1,2090 @@
+<scrapian>
+    <script key="cia_world_leaders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/cia_world_leaders.groovy?view=co"/>
+    <script key="fbi_10_most_wanted"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/fbi_generic_wanted.groovy?view=co">
+        <param name="indexUrl" value="http://www.fbi.gov/wanted/topten"/>
+    </script>
+    <script key="fbi_crime_alert"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/fbi_generic_wanted.groovy?view=co">
+        <param name="indexUrl" value="http://www.fbi.gov/wanted/alert"/>
+    </script>
+    <script key="fbi_fugitives_crimes_against_children"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/fbi_generic_wanted.groovy?view=co">
+        <param name="indexUrl" value="http://www.fbi.gov/wanted/cac"/>
+    </script>
+    <script key="fbi_fugitives_criminal_enterprise"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/fbi_generic_wanted.groovy?view=co">
+        <param name="indexUrl" value="http://www.fbi.gov/wanted/cei"/>
+    </script>
+    <script key="fbi_fugitives_cyber_crimes"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/fbi_generic_wanted.groovy?view=co">
+        <param name="indexUrl" value="http://www.fbi.gov/wanted/cyber"/>
+    </script>
+    <script key="fbi_fugitives_domestic_terrorism"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/fbi_generic_wanted.groovy?view=co">
+        <param name="indexUrl" value="http://www.fbi.gov/wanted/dt"/>
+    </script>
+    <script key="fbi_fugitives_violent_crimes_additional"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/fbi_generic_wanted.groovy?view=co">
+        <param name="indexUrl" value="http://www.fbi.gov/wanted/additional"/>
+    </script>
+    <script key="fbi_fugitives_violent_crimes_murder"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/fbi_generic_wanted.groovy?view=co">
+        <param name="indexUrl" value="http://www.fbi.gov/wanted/murders"/>
+    </script>
+    <script key="fbi_fugitives_white_collar_crimes"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/fbi_generic_wanted.groovy?view=co">
+        <param name="indexUrl" value="http://www.fbi.gov/wanted/wcc"/>
+    </script>
+    <script key="fbi_most_wanted_terrorists"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/fbi_generic_wanted.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.fbi.gov/wanted/wanted_terrorists"/>
+    </script>
+    <script key="fbi_parental_kidnappings"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/fbi_generic_wanted.groovy?view=co">
+        <param name="indexUrl" value="http://www.fbi.gov/wanted/parent"/>
+    </script>
+    <script key="fbi_seeking_info_war_on_terrorism"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/fbi_generic_wanted.groovy?view=co">
+        <param name="indexUrl" value="http://www.fbi.gov/wanted/terrorinfo"/>
+    </script>
+    <script key="fdic"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/fdic.groovy?view=co"/>
+    <script key="interpol_un_notices_entities"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/interpol_un_notices_entities.groovy?view=co"/>
+    <script key="interpol_un_notices_individuals"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/interpol_un_notices_individuals.groovy?view=co"/>
+    <script key="interpol_wanted_fugitives"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/interpol_wanted_fugitives.groovy?view=co"/>
+    <script key="occ_enforcement_actions"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/occ_enforcement_actions.groovy?view=co"/>
+    <script key="colorado_real_estate_2007"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/colorado_real_estate.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.dora.state.co.us/Real-estate/real_estate/disciplinary_action2007.htm"/>
+    </script>
+    <script key="colorado_real_estate_2008"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/colorado_real_estate.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.dora.state.co.us/Real-estate/real_estate/disciplinary_action2008.htm"/>
+    </script>
+    <script key="colorado_real_estate_2009"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/colorado_real_estate.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.dora.state.co.us/Real-estate/real_estate/disciplinary_action2009.htm"/>
+    </script>
+    <script key="colorado_mortgage_broker"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/colorado_mortgage_broker.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.dora.state.co.us/Real-Estate/mortgage/disciplinary_action.htm"/>
+        <!-- the 2008 page is not listed on the index page -->
+        <param name="unlisted1"
+               value="http://www.dora.state.co.us/Real-Estate/mortgage/disciplinary_action_2008.htm"/>
+    </script>
+    <script key="dea_fugitives_atlanta"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/dea_fugitives.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.usdoj.gov/dea/fugitives/atlanta/atl-list.htm"/>
+    </script>
+    <script key="dea_fugitives_boston"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/dea_fugitives.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.usdoj.gov/dea/fugitives/boston/bos-list.htm"/>
+    </script>
+    <script key="dea_fugitives_caribbean"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/dea_fugitives.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.usdoj.gov/dea/fugitives/caribbean/car-list.htm"/>
+    </script>
+    <script key="dea_fugitives_chicago"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/dea_fugitives.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.usdoj.gov/dea/fugitives/chicago/chi-list.htm"/>
+    </script>
+    <script key="dea_fugitives_dallas"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/dea_fugitives.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.usdoj.gov/dea/fugitives/dallas/dal-list.htm"/>
+    </script>
+    <script key="dea_fugitives_denver"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/dea_fugitives.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.usdoj.gov/dea/fugitives/denver/den-list.htm"/>
+    </script>
+    <script key="dea_fugitives_detroit"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/dea_fugitives.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.usdoj.gov/dea/fugitives/detroit/det-list.htm"/>
+    </script>
+    <script key="dea_fugitives_elpaso"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/dea_fugitives.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.usdoj.gov/dea/fugitives/elpaso/elp-list.htm"/>
+    </script>
+    <script key="dea_fugitives_houston"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/dea_fugitives.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.usdoj.gov/dea/fugitives/houston/hou-list.htm"/>
+    </script>
+    <script key="dea_fugitives_losangeles"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/dea_fugitives.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.usdoj.gov/dea/fugitives/la/la-list.htm"/>
+    </script>
+    <script key="dea_fugitives_miami"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/dea_fugitives.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.usdoj.gov/dea/fugitives/miami/mia-list.htm"/>
+    </script>
+    <script key="dea_fugitives_newjersey"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/dea_fugitives.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.usdoj.gov/dea/fugitives/newark/nj-list.htm"/>
+    </script>
+    <script key="dea_fugitives_neworleans"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/dea_fugitives.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.usdoj.gov/dea/fugitives/orleans/orl-list.htm"/>
+    </script>
+    <script key="dea_fugitives_newyork"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/dea_fugitives.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.usdoj.gov/dea/fugitives/nyc/nyc-list.htm"/>
+    </script>
+    <script key="dea_fugitives_philadelphia"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/dea_fugitives.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.usdoj.gov/dea/fugitives/phila/phi-list.htm"/>
+    </script>
+    <script key="dea_fugitives_phoenix"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/dea_fugitives.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.usdoj.gov/dea/fugitives/phoenix/phx-list.htm"/>
+    </script>
+    <script key="dea_fugitives_sandiego"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/dea_fugitives.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.usdoj.gov/dea/fugitives/sandiego/sd-list.htm"/>
+    </script>
+    <script key="dea_fugitives_sanfrancisco"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/dea_fugitives.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.usdoj.gov/dea/fugitives/san-fran/sf-list.htm"/>
+    </script>
+    <script key="dea_fugitives_seattle"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/dea_fugitives.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.usdoj.gov/dea/fugitives/seattle/sea-list.htm"/>
+    </script>
+    <script key="dea_fugitives_stlouis"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/dea_fugitives.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.usdoj.gov/dea/fugitives/stlouis/stl-list.htm"/>
+    </script>
+    <script key="dea_fugitives_washington"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/dea_fugitives.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.usdoj.gov/dea/fugitives/wdo/wdolist.htm"/>
+    </script>
+    <script key="cq_intl"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/cq_international.groovy?view=co">
+        <param name="baseUrl"
+               value="file:///RDC/Internal_Data/Scrape_Data/CQ/201106/"/>
+        <param name="dir" value="international"/>
+    </script>
+    <script key="cq_congress"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/cq_congress.groovy?view=co">
+        <param name="baseUrl"
+               value="file:///RDC/Internal_Data/Scrape_Data/CQ/201106/"/>
+    </script>
+    <script key="cq_federal"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/cq_orgs.groovy?view=co">
+        <param name="baseUrl"
+               value="file:///RDC/Internal_Data/Scrape_Data/CQ/201106/"/>
+        <param name="dir" value="federal"/>
+    </script>
+    <script key="cq_judicial"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/cq_orgs.groovy?view=co">
+        <param name="baseUrl"
+               value="file:///RDC/Internal_Data/Scrape_Data/CQ/201106/"/>
+        <param name="dir" value="judicial"/>
+    </script>
+    <script key="cia_world_leaders_archive_2003"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/cia_world_leaders_archive.groovy?view=co">
+        <param name="indexUrl"
+               value="http://10.120.10.12/SG/Internal_Data/Scrape_Data/CIA/CIA_Chiefs_of_State_Archive_2003.csv"/>
+    </script>
+    <script key="cia_world_leaders_archive_2004"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/cia_world_leaders_archive.groovy?view=co">
+        <param name="indexUrl"
+               value="http://10.120.10.12/SG/Internal_Data/Scrape_Data/CIA/CIA_Chiefs_of_State_Archive_2004.csv"/>
+    </script>
+    <script key="cia_world_leaders_archive_2005"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/cia_world_leaders_archive.groovy?view=co">
+        <param name="indexUrl"
+               value="http://10.120.10.12/SG/Internal_Data/Scrape_Data/CIA/CIA_Chiefs_of_State_Archive_2005.csv"/>
+    </script>
+    <script key="cia_world_leaders_archive_2006"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/cia_world_leaders_archive.groovy?view=co">
+        <param name="indexUrl"
+               value="http://10.120.10.12/SG/Internal_Data/Scrape_Data/CIA/CIA_Chiefs_of_State_Archive_2006.csv"/>
+    </script>
+    <script key="cia_world_leaders_archive_2007"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/cia_world_leaders_archive.groovy?view=co">
+        <param name="indexUrl"
+               value="http://10.120.10.12/SG/Internal_Data/Scrape_Data/CIA/CIA_Chiefs_of_State_Archive_2007.csv"/>
+    </script>
+    <script key="cia_world_leaders_archive_2008"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/cia_world_leaders_archive.groovy?view=co">
+        <param name="indexUrl"
+               value="http://10.120.10.12/SG/Internal_Data/Scrape_Data/CIA/CIA_Chiefs_of_State_Archive_2008.csv"/>
+    </script>
+    <script key="ofac_plc"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ofac_plc.groovy?view=co"/>
+    <script key="msb"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/msb.groovy?view=co"/>
+    <script key="cri_terrorism"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/cri_terrorism.groovy?view=co">
+        <param name="indexUrl"
+               value="http://172.19.20.145/scrape_data/terrorism_database/terrorism_database-2009-07-10.xls"/>
+    </script>
+    <script key="bis_denied_persons"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/bis_denied_persons.groovy?view=co"/>
+    <script key="osfi_un_act_iran"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/osfi_un_act_iran.groovy?view=co"/>
+    <script key="us_marshals"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_marshals.groovy?view=co"/>
+    <script key="dea_criminal_cases_against_doctors"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/dea_criminal_cases_against_doctors.groovy?view=co"/>
+    <script key="cbi_interpol_notices"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/cbi_interpol_notices.groovy?view=co"/>
+    <script key="ice_most_wanted"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ice_most_wanted.groovy?view=co">
+        <param name="url" value="http://www.ice.gov/most-wanted/inv"/>
+    </script>
+    <script key="ice_dro_most_wanted"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ice_most_wanted.groovy?view=co">
+        <param name="url" value="http://www.ice.gov/most-wanted/ero"/>
+    </script>
+    <script key="ice_most_wanted_dro"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ice_most_wanted.groovy?view=co">
+        <param name="url" value="http://www.ice.gov/most-wanted/ero"/>
+    </script>
+    <script key="secret_service_most_wanted"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/secret_service_most_wanted.groovy?view=co"/>
+    <script key="newyork_most_wanted"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/newyork_most_wanted.groovy?view=co"/>
+    <script key="DFAT_LIST"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/dfat.groovy?view=co"/>
+    <script key="OFAC_REMOVED_LIST"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ofac_sdn_removed.groovy?view=co"/>
+    <script key="OFAC_LIST"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ofac_sdn.groovy?view=co"/>
+    <script key="CFSP_LIST"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/cfsp.groovy?view=co"/>
+    <script key="OSFI_ENTITIES_LIST"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/osfi_entities_list.groovy?view=co"/>
+    <script key="OSFI_INDIVIDUALS_LIST"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/osfi_individuals_list.groovy?view=co"/>
+    <script key="UNSECCOUNCIL1267_LIST"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/unseccouncil1267_list.groovy?view=co"/>
+    <script key="UK_SANCTIONS_LIST"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/uk_sanctions_list.groovy?view=co">
+        <param name="url"
+               value="http://www.hm-treasury.gov.uk/d/sanctionsconlist.txt"/>
+        <param name="name" value="sanctionsconlist"/>
+    </script>
+    <script key="uk_investment_ban_list"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/uk_sanctions_list.groovy?view=co">
+        <param name="url"
+               value="http://www.hm-treasury.gov.uk/d/investmentban.txt"/>
+        <param name="name" value="investmentban"/>
+    </script>
+    <script key="uk_london_gazette_winding_up_petitions_companies"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/uk_london_gazette.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.london-gazette.co.uk/issues/recent/10/corp-insolvency-winding-up-court/petitions-companies/start="/>
+        <param name="archiveDirectory"
+               value="/RDC/Internal_Data/Web_Archive/london-gazette.co.uk/"/>
+        <param name="archiveBaseUrl"
+               value="http://archive.rdc.com/london-gazette.co.uk/"/>
+        <param name="archiveFilename"
+               value="winding-up-petitions-companies.html"/>
+    </script>
+    <script key="uk_london_gazette_winding_up_petitions_partnerships"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/uk_london_gazette.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.london-gazette.co.uk/issues/recent/10/corp-insolvency-winding-up-court/petitions-partnerships/start="/>
+        <param name="archiveDirectory"
+               value="/RDC/Internal_Data/Web_Archive/london-gazette.co.uk/"/>
+        <param name="archiveBaseUrl"
+               value="http://archive.rdc.com/london-gazette.co.uk/"/>
+        <param name="archiveFilename"
+               value="winding-up-petitions-partnerships.html"/>
+    </script>
+    <script key="uk_london_gazette_winding_up_orders_companies"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/uk_london_gazette.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.london-gazette.co.uk/issues/recent/10/corp-insolvency-winding-up-court/orders-companies/start="/>
+        <param name="archiveDirectory"
+               value="/RDC/Internal_Data/Web_Archive/london-gazette.co.uk/"/>
+        <param name="archiveBaseUrl"
+               value="http://archive.rdc.com/london-gazette.co.uk/"/>
+        <param name="archiveFilename" value="winding-up-orders-companies.html"/>
+    </script>
+    <script key="uk_london_gazette_winding_up_orders_partnerships"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/uk_london_gazette.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.london-gazette.co.uk/issues/recent/10/corp-insolvency-winding-up-court/orders-partnerships/start="/>
+        <param name="archiveDirectory"
+               value="/RDC/Internal_Data/Web_Archive/london-gazette.co.uk/"/>
+        <param name="archiveBaseUrl"
+               value="http://archive.rdc.com/london-gazette.co.uk/"/>
+        <param name="archiveFilename"
+               value="winding-up-orders-partnerships.html"/>
+    </script>
+    <script key="uk_london_gazette_appointment_of_liquidators"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/uk_london_gazette.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.london-gazette.co.uk/issues/recent/10/corp-insolvency-winding-up-court/appointments/start="/>
+        <param name="archiveDirectory"
+               value="/RDC/Internal_Data/Web_Archive/london-gazette.co.uk/"/>
+        <param name="archiveBaseUrl"
+               value="http://archive.rdc.com/london-gazette.co.uk/"/>
+        <param name="archiveFilename" value="appointment-of-liquidators.html"/>
+    </script>
+    <script key="uk_london_gazette_notices_to_creditors"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/uk_london_gazette.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.london-gazette.co.uk/issues/recent/10/corp-insolvency-winding-up-court/creditors/start="/>
+        <param name="archiveDirectory"
+               value="/RDC/Internal_Data/Web_Archive/london-gazette.co.uk/"/>
+        <param name="archiveBaseUrl"
+               value="http://archive.rdc.com/london-gazette.co.uk/"/>
+        <param name="archiveFilename" value="notices-to-creditors.html"/>
+    </script>
+    <script key="uk_edinburgh_gazette_resolutions_for_winding_up"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/uk_london_gazette.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.edinburgh-gazette.co.uk/issues/recent/10/corp-insolvency-winding-up-members/resolution/start="/>
+        <param name="archiveDirectory"
+               value="/RDC/Internal_Data/Web_Archive/edinburgh-gazette.co.uk/"/>
+        <param name="archiveBaseUrl"
+               value="http://archive.rdc.com/edinburgh-gazette.co.uk/"/>
+        <param name="archiveFilename" value="resolutions-for-winding-up.html"/>
+    </script>
+    <script key="uk_edinburgh_gazette_appointment_of_receivers"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/uk_london_gazette.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.edinburgh-gazette.co.uk/issues/recent/10/corp-insolvency-receivership/appointments/start="/>
+        <param name="archiveDirectory"
+               value="/RDC/Internal_Data/Web_Archive/edinburgh-gazette.co.uk/"/>
+        <param name="archiveBaseUrl"
+               value="http://archive.rdc.com/edinburgh-gazette.co.uk/"/>
+        <param name="archiveFilename" value="appointment-of-receivers.html"/>
+    </script>
+    <script key="uk_edinburgh_gazette_appointment_of_liquidators"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/uk_london_gazette.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.edinburgh-gazette.co.uk/issues/recent/10/corp-insolvency-winding-up-members/appointments/start="/>
+        <param name="archiveDirectory"
+               value="/RDC/Internal_Data/Web_Archive/edinburgh-gazette.co.uk/"/>
+        <param name="archiveBaseUrl"
+               value="http://archive.rdc.com/edinburgh-gazette.co.uk/"/>
+        <param name="archiveFilename" value="appointment-of-liquidators.html"/>
+    </script>
+    <script key="uk_edinburgh_gazette_notices_to_creditors"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/uk_london_gazette.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.edinburgh-gazette.co.uk/issues/recent/10/corp-insolvency-winding-up-members/creditors/start="/>
+        <param name="archiveDirectory"
+               value="/RDC/Internal_Data/Web_Archive/edinburgh-gazette.co.uk/"/>
+        <param name="archiveBaseUrl"
+               value="http://archive.rdc.com/edinburgh-gazette.co.uk/"/>
+        <param name="archiveFilename" value="notices-to-creditors.html"/>
+    </script>
+    <script key="uk_belfast_gazette_appointment_of_administrators"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/uk_london_gazette.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.belfast-gazette.co.uk/issues/recent/10/corp-insolvency-administration/appointments/start="/>
+        <param name="archiveDirectory"
+               value="/RDC/Internal_Data/Web_Archive/belfast-gazette.co.uk/"/>
+        <param name="archiveBaseUrl"
+               value="http://archive.rdc.com/belfast-gazette.co.uk/"/>
+        <param name="archiveFilename"
+               value="appointment-of-administrators.html"/>
+    </script>
+    <script key="uk_belfast_gazette_administration_orders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/uk_london_gazette.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.belfast-gazette.co.uk/issues/recent/10/corp-insolvency-administration/orders/start="/>
+        <param name="archiveDirectory"
+               value="/RDC/Internal_Data/Web_Archive/belfast-gazette.co.uk/"/>
+        <param name="archiveBaseUrl"
+               value="http://archive.rdc.com/belfast-gazette.co.uk/"/>
+        <param name="archiveFilename" value="administration-orders.html"/>
+    </script>
+    <script key="uk_belfast_gazette_meetings_of_creditors"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/uk_london_gazette.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.belfast-gazette.co.uk/issues/recent/10/corp-insolvency-administration/meetings-creditors/start="/>
+        <param name="archiveDirectory"
+               value="/RDC/Internal_Data/Web_Archive/belfast-gazette.co.uk/"/>
+        <param name="archiveBaseUrl"
+               value="http://archive.rdc.com/belfast-gazette.co.uk/"/>
+        <param name="archiveFilename" value="meetings-of-creditors.html"/>
+    </script>
+    <script key="uk_belfast_gazette_winding_up_petitions_companies"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/uk_london_gazette.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.belfast-gazette.co.uk/issues/recent/10/corp-insolvency-winding-up-court/petitions-companies/start="/>
+        <param name="archiveDirectory"
+               value="/RDC/Internal_Data/Web_Archive/belfast-gazette.co.uk/"/>
+        <param name="archiveBaseUrl"
+               value="http://archive.rdc.com/belfast-gazette.co.uk/"/>
+        <param name="archiveFilename"
+               value="winding-up-petitions-companies.html"/>
+    </script>
+    <script key="uk_belfast_gazette_winding_up_petitions_partnerships"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/uk_london_gazette.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.belfast-gazette.co.uk/issues/recent/10/corp-insolvency-winding-up-court/petitions-partnerships/start="/>
+        <param name="archiveDirectory"
+               value="/RDC/Internal_Data/Web_Archive/belfast-gazette.co.uk/"/>
+        <param name="archiveBaseUrl"
+               value="http://archive.rdc.com/belfast-gazette.co.uk/"/>
+        <param name="archiveFilename"
+               value="winding-up-petitions-partnerships.html"/>
+    </script>
+    <script key="uk_belfast_gazette_winding_up_orders_companies"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/uk_london_gazette.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.belfast-gazette.co.uk/issues/recent/10/corp-insolvency-winding-up-court/orders-companies/start="/>
+        <param name="archiveDirectory"
+               value="/RDC/Internal_Data/Web_Archive/belfast-gazette.co.uk/"/>
+        <param name="archiveBaseUrl"
+               value="http://archive.rdc.com/belfast-gazette.co.uk/"/>
+        <param name="archiveFilename" value="winding-up-orders-companies.html"/>
+    </script>
+    <script key="cbi_wanted"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/cbi_wanted.groovy?view=co"/>
+    <script key="uk_unauthorised_overseas_firms"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/uk_unauthorised_overseas_firms.groovy?view=co"/>
+    <script key="uk_unauthorised_internet_banks"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/uk_unauthorised_internet_banks.groovy?view=co"/>
+    <script key="uk_unauthorised_firms_individuals"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/uk_unauthorised_firms_individuals.groovy?view=co"/>
+    <script key="uk_prohibited_individuals"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/uk_prohibited_individuals.groovy?view=co"/>
+    <script key="uspis_most_wanted"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/uspis_most_wanted.groovy?view=co"/>
+    <script key="cia_political_parties_and_leaders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/cia_political.groovy?view=co">
+        <param name="type" value="partiesAndLeaders"/>
+    </script>
+    <script key="cia_political_pressure_groups_and_leaders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/cia_political.groovy?view=co">
+        <param name="type" value="pressureGroupsAndLeaders"/>
+    </script>
+    <script key="lapd_us_most_wanted"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/lapd_us_most_wanted.groovy?view=co"/>
+    <script key="crimestoppers_uk_most_wanted"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/crimestoppers_uk_most_wanted.groovy?view=co"/>
+    <script key="us_most_wanted_alabama"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_most_wanted_alabama.groovy?view=co"/>
+    <script key="irish_unauthorised_firms"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/irish_unauthorised_firms.groovy?view=co"/>
+    <script key="epa_fugitives"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/epa_fugitives.groovy?view=co"/>
+    <script key="pmdtcdebarredlist"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/dtc_debarred_parties.groovy?view=co"/>
+    <script key="pmdtcdebarredparties"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/dtc_admin_debarred_parties.groovy?view=co"/>
+    <script key="hk_icac_most_wanted"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/hk_icac_most_wanted.groovy?view=co"/>
+    <script key="US_Banking_OTS"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_banking_ots.groovy?view=co"/>
+    <script key="crimestoppers_dynasites"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/crimestoppers_dynasites.groovy?view=co"/>
+    <script key="wisconsin_mortgage_orders_2012"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/wisconsin_mortgage_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.wdfi.org/newsroom/admin_orders/mb_default.htm"/>
+    </script>
+
+    <script key="wisconsin_mortgage_orders_2010"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/wisconsin_mortgage_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.wdfi.org/newsroom/admin_orders/mb_default.htm"/>
+    </script>
+    <script key="wisconsin_mortgage_orders_2009"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/wisconsin_mortgage_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.wdfi.org/newsroom/admin_orders/mb_09_archive.htm"/>
+    </script>
+    <script key="wisconsin_mortgage_orders_2008"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/wisconsin_mortgage_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.wdfi.org/newsroom/admin_orders/mb_08_archive.htm"/>
+    </script>
+    <script key="wisconsin_mortgage_orders_2007"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/wisconsin_mortgage_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.wdfi.org/newsroom/admin_orders/mb_07_archive.htm"/>
+    </script>
+    <script key="wisconsin_mortgage_orders_2006"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/wisconsin_mortgage_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.wdfi.org/newsroom/admin_orders/mb_06_archive.htm"/>
+    </script>
+    <script key="wisconsin_mortgage_orders_2005"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/wisconsin_mortgage_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.wdfi.org/newsroom/admin_orders/mb_05_archive.htm"/>
+    </script>
+    <script key="wisconsin_mortgage_orders_2004"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/wisconsin_mortgage_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.wdfi.org/newsroom/admin_orders/mb_04_archive.htm"/>
+    </script>
+    <script key="wisconsin_mortgage_orders_2003"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/wisconsin_mortgage_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.wdfi.org/newsroom/admin_orders/mb_03_archive.htm"/>
+    </script>
+    <script key="wisconsin_mortgage_orders_2002"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/wisconsin_mortgage_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.wdfi.org/newsroom/admin_orders/mb_02_archive.htm"/>
+    </script>
+    <script key="wisconsin_mortgage_orders_2001"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/wisconsin_mortgage_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.wdfi.org/newsroom/admin_orders/mb_01_archive.htm"/>
+    </script>
+    <script key="wisconsin_securities_orders_2011"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/wisconsin_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.wdfi.org/newsroom/admin_orders/dos_default.htm"/>
+        <param name="eventDate" value="01/01/2011"/>
+    </script>
+    <script key="wisconsin_securities_orders_2010"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/wisconsin_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.wdfi.org/newsroom/admin_orders/10_archive.htm"/>
+        <param name="eventDate" value="01/01/2010"/>
+    </script>
+    <script key="wisconsin_securities_orders_2009"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/wisconsin_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.wdfi.org/newsroom/admin_orders/09_archive.htm"/>
+        <param name="eventDate" value="01/01/2009"/>
+    </script>
+    <script key="wisconsin_securities_orders_2008"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/wisconsin_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.wdfi.org/newsroom/admin_orders/08_archive.htm"/>
+        <param name="eventDate" value="01/01/2008"/>
+    </script>
+    <script key="wisconsin_securities_orders_2007"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/wisconsin_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.wdfi.org/newsroom/admin_orders/07_archive.htm"/>
+        <param name="eventDate" value="01/01/2007"/>
+    </script>
+    <script key="wisconsin_securities_orders_2006"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/wisconsin_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.wdfi.org/newsroom/admin_orders/06_archive.htm"/>
+        <param name="eventDate" value="01/01/2006"/>
+    </script>
+    <script key="wisconsin_securities_orders_2005"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/wisconsin_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.wdfi.org/newsroom/admin_orders/05_archive.htm"/>
+        <param name="eventDate" value="01/01/2005"/>
+    </script>
+    <script key="wisconsin_securities_orders_2004"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/wisconsin_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.wdfi.org/newsroom/admin_orders/04_archive.htm"/>
+        <param name="eventDate" value="01/01/2004"/>
+    </script>
+    <script key="wisconsin_securities_orders_2003"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/wisconsin_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.wdfi.org/newsroom/admin_orders/03_archive.htm"/>
+        <param name="eventDate" value="01/01/2003"/>
+    </script>
+    <script key="wisconsin_securities_orders_2002"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/wisconsin_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.wdfi.org/newsroom/admin_orders/02_archive.htm"/>
+        <param name="eventDate" value="01/01/2002"/>
+    </script>
+    <script key="va_scc_delinq"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/va_scc_delinq.groovy?view=co">
+        <param name="pdfUrl"
+               value="http://www.scc.virginia.gov/bfi/reg_inst/delinq.pdf"/>
+    </script>
+    <script key="va_scc_mtg_pen_pd"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/va_scc.groovy?view=co">
+        <param name="pdfUrl"
+               value="http://www.scc.virginia.gov/bfi/vio/mtg_pen_pd.pdf"/>
+    </script>
+    <script key="va_scc_other_pen_pd"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/va_scc.groovy?view=co">
+        <param name="pdfUrl"
+               value="http://www.scc.virginia.gov/bfi/vio/other_pen_pd.pdf"/>
+    </script>
+    <script key="va_scc_mtg_rev"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/va_scc.groovy?view=co">
+        <param name="pdfUrl"
+               value="http://www.scc.virginia.gov/bfi/vio/mtg_rev.pdf"/>
+    </script>
+    <script key="va_scc_pay_deny"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/va_scc.groovy?view=co">
+        <param name="pdfUrl"
+               value="http://www.scc.virginia.gov/bfi/vio/pay_deny.pdf"/>
+    </script>
+    <script key="va_scc_cf_pen_pd"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/va_scc_cf_pen_pd.groovy?view=co">
+        <param name="pdfUrl"
+               value="http://www.scc.virginia.gov/bfi/vio/cf_pen_pd.pdf"/>
+    </script>
+    <script key="va_scc_pay_pen_pd"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/va_scc_pay_pen_pd.groovy?view=co">
+        <param name="pdfUrl"
+               value="http://www.scc.virginia.gov/bfi/vio/pay_pen_pd.pdf"/>
+    </script>
+    <script key="pa_banking_enforcement_orders_2011"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/pa_banking_enforcement_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.portal.state.pa.us/portal/server.pt/community/consumer_information/14322/enforcement_actions/592748"/>
+    </script>
+    <script key="pa_banking_enforcement_orders_2010"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/pa_banking_enforcement_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.portal.state.pa.us/portal/server.pt/community/consumer_information/14322/2010_enforcement_actions/813426"/>
+    </script>
+    <script key="pa_banking_enforcement_orders_2009"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/pa_banking_enforcement_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.portal.state.pa.us/portal/server.pt/community/consumer_information/14322/09_enforcement_actions/645373"/>
+    </script>
+    <script key="pa_banking_enforcement_orders_2008"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/pa_banking_enforcement_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.portal.state.pa.us/portal/server.pt/community/consumer_information/14322/08_enforcement_actions/619806"/>
+    </script>
+    <script key="pa_banking_enforcement_orders_2007"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/pa_banking_enforcement_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.banking.state.pa.us/banking/cwp/view.asp?A=1350&amp;QUESTION_ID=548250"/>
+    </script>
+    <script key="pa_banking_enforcement_orders_2006"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/pa_banking_enforcement_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.banking.state.pa.us/banking/cwp/view.asp?A=1350&amp;QUESTION_ID=548180"/>
+    </script>
+    <script key="pa_banking_enforcement_orders_2005"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/pa_banking_enforcement_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.banking.state.pa.us/banking/cwp/view.asp?A=1350&amp;QUESTION_ID=548068"/>
+    </script>
+    <script key="pa_banking_enforcement_orders_2004"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/pa_banking_enforcement_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.banking.state.pa.us/banking/cwp/view.asp?A=1350&amp;QUESTION_ID=548075"/>
+    </script>
+    <script key="us_nd_securities_enforcement_actions_2010"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_nd_securities_enforcement_actions.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ndsecurities.com/enforcement/enforcement-actions.asp"/>
+    </script>
+    <script key="us_nd_securities_enforcement_actions_2009"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_nd_securities_enforcement_actions.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ndsecurities.com/enforcement/enforcement-actions.asp"/>
+    </script>
+    <script key="us_nd_securities_enforcement_actions_2008"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_nd_securities_enforcement_actions.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ndsecurities.com/enforcement/enforcement-actions.asp?theYear=2008"/>
+    </script>
+    <script key="us_nd_securities_enforcement_actions_2007"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_nd_securities_enforcement_actions.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ndsecurities.com/enforcement/enforcement-actions.asp?theYear=2007"/>
+    </script>
+    <script key="us_nd_securities_enforcement_actions_2006"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_nd_securities_enforcement_actions.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ndsecurities.com/enforcement/enforcement-actions.asp?theYear=2006"/>
+    </script>
+    <script key="us_nd_securities_enforcement_actions_2005"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_nd_securities_enforcement_actions.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ndsecurities.com/enforcement/enforcement-actions.asp?theYear=2005"/>
+    </script>
+    <script key="us_nd_securities_enforcement_actions_2004"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_nd_securities_enforcement_actions.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ndsecurities.com/enforcement/enforcement-actions.asp?theYear=2004"/>
+    </script>
+    <script key="us_nd_securities_enforcement_actions_2003"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_nd_securities_enforcement_actions.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ndsecurities.com/enforcement/enforcement-actions.asp?theYear=2003"/>
+    </script>
+    <script key="us_nd_securities_enforcement_actions_2002"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_nd_securities_enforcement_actions.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ndsecurities.com/enforcement/enforcement-actions.asp?theYear=2002"/>
+    </script>
+    <script key="us_nd_securities_enforcement_actions_2001"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_nd_securities_enforcement_actions.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ndsecurities.com/enforcement/enforcement-actions.asp?theYear=2001"/>
+    </script>
+    <script key="us_nd_securities_enforcement_actions_2000"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_nd_securities_enforcement_actions.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ndsecurities.com/enforcement/enforcement-actions.asp?theYear=2000"/>
+    </script>
+    <script key="us_nd_securities_enforcement_actions_1999"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_nd_securities_enforcement_actions.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ndsecurities.com/enforcement/enforcement-actions.asp?theYear=1999"/>
+    </script>
+    <script key="us_nd_securities_enforcement_actions_1998"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_nd_securities_enforcement_actions.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ndsecurities.com/enforcement/enforcement-actions.asp?theYear=1998"/>
+    </script>
+    <script key="forfeiture_gov"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/forfeiture_gov.groovy?view=co">
+        <param name="archiveDirectory"
+               value="/SG/rep_Internal_Data/Web_Archive/forfeiture.gov/"/>
+        <param name="archiveUrl"
+               value="http://w-tlapp02.rdc.com/SG/rep_Internal_Data/Web_Archive/forfeiture.gov/100c1d0848c40504.html"/>
+    </script>
+    <script key="nv_gaming_wanted"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/nv_gaming_wanted.groovy?view=co">
+        <param name="baseUrl" value="http://gaming.nv.gov/"/>
+    </script>
+    <script key="nv_gaming_excluded_persons"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/nv_gaming_excluded_persons.groovy?view=co">
+        <param name="baseUrl" value="http://gaming.nv.gov/"/>
+    </script>
+    <script key="nj_ccc_excluded_persons"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/nj_ccc_excluded_persons.groovy?view=co"/>
+
+    <script key="ncua_administrative_orders_2012"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ncua_administrative_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ncua.gov/Legal/Pages/AO2012.aspx"/>
+        <param name="year" value="2012"/>
+    </script>
+
+    <script key="ncua_administrative_orders_2011"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ncua_administrative_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ncua.gov/Legal/Pages/AO2011.aspx"/>
+        <param name="year" value="2011"/>
+    </script>
+    <script key="ncua_administrative_orders_2010"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ncua_administrative_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ncua.gov/Resources/AdministrativeOrders/Orders2010.aspx"/>
+        <param name="year" value="2010"/>
+    </script>
+    <script key="ncua_administrative_orders_2009"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ncua_administrative_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ncua.gov/Resources/AdministrativeOrders/Orders.aspx"/>
+        <param name="year" value="2009"/>
+    </script>
+    <script key="ncua_administrative_orders_2008"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ncua_administrative_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ncua.gov/Resources/AdministrativeOrders/Orders2008.aspx"/>
+        <param name="year" value="2008"/>
+    </script>
+    <script key="ncua_administrative_orders_2007"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ncua_administrative_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ncua.gov/Resources/AdministrativeOrders/Orders2007.aspx"/>
+        <param name="year" value="2007"/>
+    </script>
+    <script key="ncua_administrative_orders_2006"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ncua_administrative_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ncua.gov/Resources/AdministrativeOrders/Orders2006.aspx"/>
+        <param name="year" value="2006"/>
+    </script>
+    <script key="ncua_administrative_orders_2005"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ncua_administrative_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ncua.gov/Resources/AdministrativeOrders/Orders2005.aspx"/>
+        <param name="year" value="2005"/>
+    </script>
+    <script key="ncua_administrative_orders_2004"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ncua_administrative_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ncua.gov/Resources/AdministrativeOrders/Orders2004.aspx"/>
+        <param name="year" value="2004"/>
+    </script>
+    <script key="ncua_administrative_orders_2003"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ncua_administrative_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ncua.gov/Resources/AdministrativeOrders/Orders2003.aspx"/>
+        <param name="year" value="2003"/>
+    </script>
+    <script key="ncua_administrative_orders_2002"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ncua_administrative_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ncua.gov/Resources/AdministrativeOrders/Orders2002.aspx"/>
+        <param name="year" value="2002"/>
+    </script>
+    <script key="ncua_administrative_orders_2001"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ncua_administrative_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ncua.gov/Resources/AdministrativeOrders/Orders2001.aspx"/>
+        <param name="year" value="2001"/>
+    </script>
+    <script key="ncua_administrative_orders_2000"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ncua_administrative_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ncua.gov/Resources/AdministrativeOrders/Orders2000.aspx"/>
+        <param name="year" value="2000"/>
+    </script>
+    <script key="ncua_administrative_orders_1999"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ncua_administrative_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ncua.gov/Resources/AdministrativeOrders/Orders1999.aspx"/>
+        <param name="year" value="1999"/>
+    </script>
+    <script key="ncua_administrative_orders_1998"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ncua_administrative_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ncua.gov/Resources/AdministrativeOrders/Orders1998.aspx"/>
+        <param name="year" value="1998"/>
+    </script>
+    <script key="ncua_administrative_orders_1997"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ncua_administrative_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ncua.gov/Resources/AdministrativeOrders/Orders1997.aspx"/>
+        <param name="year" value="1997"/>
+    </script>
+    <script key="wisconsin_fiserv_orders_2009"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/wisconsin_fiserv_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.wdfi.org/newsroom/admin_orders/lfs_09_archive.htm"/>
+    </script>
+    <script key="wisconsin_fiserv_orders_2008"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/wisconsin_fiserv_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.wdfi.org/newsroom/admin_orders/lfs_08_archive.htm"/>
+    </script>
+    <script key="wisconsin_fiserv_orders_2007"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/wisconsin_fiserv_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.wdfi.org/newsroom/admin_orders/lfs_07_archive.htm"/>
+    </script>
+    <script key="us_ar_securities_orders_2011"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ar_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.securities.arkansas.gov/legal/orders/default.asp?year=2011&amp;type=2"/>
+    </script>
+    <script key="us_ar_securities_orders_2010"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ar_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.securities.arkansas.gov/legal/orders/default.asp?year=2010&amp;type=2"/>
+    </script>
+    <script key="us_ar_securities_orders_2009"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ar_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.securities.arkansas.gov/legal/orders/default.asp?year=2009&amp;type=2"/>
+    </script>
+    <script key="us_ar_securities_orders_2008"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ar_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.securities.arkansas.gov/legal/orders/default.asp?year=2008&amp;type=2"/>
+    </script>
+    <script key="us_ar_securities_orders_2007"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ar_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.securities.arkansas.gov/legal/orders/default.asp?year=2007&amp;type=2"/>
+    </script>
+    <script key="us_ar_securities_orders_2006"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ar_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.securities.arkansas.gov/legal/orders/default.asp?year=2006&amp;type=2"/>
+    </script>
+    <script key="us_ar_securities_orders_2005"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ar_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.securities.arkansas.gov/legal/orders/default.asp?year=2005&amp;type=2"/>
+    </script>
+    <script key="us_ar_securities_orders_2004"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ar_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.securities.arkansas.gov/legal/orders/default.asp?year=2004&amp;type=2"/>
+    </script>
+    <script key="us_ar_securities_orders_2003"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ar_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.securities.arkansas.gov/legal/orders/default.asp?year=2003&amp;type=2"/>
+    </script>
+    <script key="us_ar_securities_orders_2002"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ar_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.securities.arkansas.gov/legal/orders/default.asp?year=2002&amp;type=2"/>
+    </script>
+    <script key="us_ar_securities_orders_2001"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ar_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.securities.arkansas.gov/legal/orders/default.asp?year=2001&amp;type=2"/>
+    </script>
+    <script key="us_ar_securities_orders_2000"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ar_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.securities.arkansas.gov/legal/orders/default.asp?year=2000&amp;type=2"/>
+    </script>
+    <script key="us_ar_securities_orders_1999"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ar_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.securities.arkansas.gov/legal/orders/default.asp?year=1999&amp;type=2"/>
+    </script>
+    <script key="us_ar_securities_orders_1998"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ar_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.securities.arkansas.gov/legal/orders/default.asp?year=1998&amp;type=2"/>
+    </script>
+    <script key="us_excluded_parties_1980_1989"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_excluded_parties.groovy?view=co">
+        <param name="startDate" value="1/1/1980"/>
+        <param name="endDate" value="12/31/1989"/>
+    </script>
+    <script key="us_excluded_parties_1990_1999"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_excluded_parties.groovy?view=co">
+        <param name="startDate" value="1/1/1990"/>
+        <param name="endDate" value="12/31/1999"/>
+    </script>
+    <script key="us_excluded_parties_2000_2009"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_excluded_parties.groovy?view=co">
+        <param name="startDate" value="1/1/2000"/>
+        <param name="endDate" value="12/31/2009"/>
+    </script>
+    <script key="us_excluded_parties_2010_2019"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_excluded_parties.groovy?view=co">
+        <param name="startDate" value="1/1/2010"/>
+        <param name="endDate" value="12/31/2019"/>
+    </script>
+    <script key="us_hud_denial"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_hud_denial.groovy?view=co"/>
+    <script key="ca_cto_organizations"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ca_cto_organizations.groovy?view=co"/>
+    <script key="ca_cto_individuals"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ca_cto_individuals.groovy?view=co"/>
+    <script key="ca_disciplined_individuals"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ca_disciplined_individuals.groovy?view=co"/>
+    <script key="ncis"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ncis.groovy?view=co"/>
+    <script key="mi_most_wanted_escapees"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/mi_most_wanted_escapees.groovy?view=co"/>
+    <script key="us_ia_real_estate_actions_2010"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ia_real_estate_actions.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.state.ia.us/government/com/prof/sales/disc_action/discip_action10.html"/>
+        <param name="year" value="2010"/>
+    </script>
+    <script key="us_ia_real_estate_actions_2009"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ia_real_estate_actions.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.state.ia.us/government/com/prof/sales/disc_action/discip_action09.html"/>
+        <param name="year" value="2009"/>
+    </script>
+    <script key="us_ia_real_estate_actions_2008"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ia_real_estate_actions.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.state.ia.us/government/com/prof/sales/disc_action/discip_action08New.html"/>
+        <param name="year" value="2008"/>
+    </script>
+    <script key="us_ia_real_estate_actions_2007"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ia_real_estate_actions.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.state.ia.us/government/com/prof/sales/disc_action/discip_action07New.html"/>
+        <param name="year" value="2007"/>
+    </script>
+    <script key="chicago_most_wanted"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/chicago_most_wanted.groovy?view=co"/>
+    <script key="us_co_real_estate_actions_2008"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_co_real_estate_actions.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.dora.state.co.us/Real-estate/appraisr/disciplinary_action2008.htm"/>
+        <param name="year" value="2008"/>
+    </script>
+    <script key="us_co_real_estate_actions_2007"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_co_real_estate_actions.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.dora.state.co.us/Real-estate/appraisr/disciplinary_action2007.htm"/>
+        <param name="year" value="2007"/>
+    </script>
+    <script key="us_me_securities_judicial_actions"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_me_securities_judicial_actions.groovy?view=co"/>
+    <script key="us_me_securities_admin_orders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_me_securities_admin_orders.groovy?view=co"/>
+    <script key="mn_douglas_most_wanted"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/mn_douglas_most_wanted.groovy?view=co"/>
+    <script key="us_vt_banking_unlicensed"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_vt_banking_unlicensed.groovy?view=co"/>
+    <script key="us_vt_unlicensed_professionals"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_vt_unlicensed_professionals.groovy?view=co"/>
+    <script key="nj_real_estate_disciplinary_actions_current"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/nj_real_estate_disciplinary_actions.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.state.nj.us/dobi/division_rec/recdiscp.htm"/>
+    </script>
+    <script key="nj_real_estate_disciplinary_actions_archive"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/nj_real_estate_disciplinary_actions.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.state.nj.us/dobi/division_rec/recdiscp_archive.htm"/>
+    </script>
+    <script key="ma_real_estate_appraisers"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ma_real_estate_appraisers.groovy?view=co"/>
+    <script key="us_az_securities_enforcement_actions"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_az_securities_enforcement_actions.groovy?view=co"/>
+    <script key="us_md_securities_enforcement_actions"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_md_securities_enforcement_actions.groovy?view=co"/>
+
+    <script key="wa_real_estate_disciplinary_actions"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/wa_real_estate_disciplinary_actions.groovy?view=co"/>
+    <script key="ca_desist_and_refrain_rental"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ca_desist_and_refrain.groovy?view=co">
+        <param name="indexUrl"
+               value="http://secure.dre.ca.gov/publicasp/prlsdnr.asp?"/>
+    </script>
+    <script key="ca_desist_and_refrain_unlicensed"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ca_desist_and_refrain.groovy?view=co">
+        <param name="indexUrl"
+               value="http://secure.dre.ca.gov/publicasp/unlicenseddnr.asp?"/>
+    </script>
+    <script key="ca_office_of_real_estate_appraisers"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ca_office_of_real_estate_appraisers.groovy?view=co"/>
+    <script key="us_ct_securities_orders_1999"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ct_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ct.gov/dob/cwp/view.asp?a=2246&amp;q=298974"/>
+        <param name="year" value="1999"/>
+    </script>
+    <script key="us_ct_securities_orders_2000"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ct_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ct.gov/dob/cwp/view.asp?a=2246&amp;q=298962"/>
+        <param name="year" value="2000"/>
+    </script>
+    <script key="us_ct_securities_orders_2001"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ct_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ct.gov/dob/cwp/view.asp?a=2246&amp;q=298964"/>
+        <param name="year" value="2001"/>
+    </script>
+    <script key="us_ct_securities_orders_2002"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ct_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ct.gov/dob/cwp/view.asp?a=2246&amp;q=298966"/>
+        <param name="year" value="2002"/>
+    </script>
+    <script key="us_ct_securities_orders_2003"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ct_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ct.gov/dob/cwp/view.asp?a=2246&amp;q=298968"/>
+        <param name="year" value="2003"/>
+    </script>
+    <script key="us_ct_securities_orders_2004"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ct_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ct.gov/dob/cwp/view.asp?a=2246&amp;q=298970"/>
+        <param name="year" value="2004"/>
+    </script>
+    <script key="us_ct_securities_orders_2005"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ct_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ct.gov/dob/cwp/view.asp?a=2246&amp;q=298976"/>
+        <param name="year" value="2005"/>
+    </script>
+    <script key="us_ct_securities_orders_2006"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ct_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ct.gov/dob/cwp/view.asp?a=2246&amp;q=308222"/>
+        <param name="year" value="2006"/>
+    </script>
+    <script key="us_ct_securities_orders_2007"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ct_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ct.gov/dob/cwp/view.asp?a=2246&amp;q=330412"/>
+        <param name="year" value="2007"/>
+    </script>
+    <script key="us_ct_securities_orders_2008"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ct_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ct.gov/dob/cwp/view.asp?a=2246&amp;q=401762"/>
+        <param name="year" value="2008"/>
+    </script>
+    <script key="us_ct_securities_orders_2009"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ct_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ct.gov/dob/cwp/view.asp?a=2246&amp;q=428878"/>
+        <param name="year" value="2009"/>
+    </script>
+    <script key="us_ct_securities_orders_2010"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ct_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ct.gov/dob/cwp/view.asp?a=2246&amp;q=453066"/>
+        <param name="year" value="2010"/>
+    </script>
+    <script key="us_ct_consumer_orders_2010"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ct_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ct.gov/dob/cwp/view.asp?a=2246&amp;q=453072"/>
+        <param name="year" value="2010"/>
+    </script>
+    <script key="us_ct_consumer_orders_2009"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ct_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ct.gov/dob/cwp/view.asp?a=2246&amp;q=428178"/>
+        <param name="year" value="2009"/>
+    </script>
+    <script key="us_ct_consumer_orders_2008"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ct_securities_orders.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ct.gov/dob/cwp/view.asp?a=2246&amp;q=298720"/>
+        <param name="year" value="2008"/>
+    </script>
+    <script key="tx_securities_board_civil_criminal_2011"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/tx_securities_board_civil_criminal.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ssb.state.tx.us/Enforcement/2011_Civil_and_Criminal_Actions.php"/>
+        <param name="year" value="2011"/>
+    </script>
+    <script key="tx_securities_board_civil_criminal_2010"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/tx_securities_board_civil_criminal.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ssb.state.tx.us/Enforcement/2010_Civil_and_Criminal_Actions.php"/>
+        <param name="year" value="2010"/>
+    </script>
+    <script key="tx_securities_board_civil_criminal_2009"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/tx_securities_board_civil_criminal.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ssb.state.tx.us/Enforcement/2009_Civil_and_Criminal_Actions.php"/>
+        <param name="year" value="2009"/>
+    </script>
+    <script key="tx_securities_board_civil_criminal_2008"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/tx_securities_board_civil_criminal.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ssb.state.tx.us/Enforcement/2008_Civil_and_Criminal_Actions.php"/>
+        <param name="year" value="2008"/>
+    </script>
+    <script key="tx_securities_board_civil_criminal_2007"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/tx_securities_board_civil_criminal.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ssb.state.tx.us/Enforcement/2007_Civil_and_Criminal_Actions.php"/>
+        <param name="year" value="2007"/>
+    </script>
+    <script key="tx_securities_board_civil_criminal_2006"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/tx_securities_board_civil_criminal.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ssb.state.tx.us/Enforcement/2006_Civil_and_Criminal_Actions.php"/>
+        <param name="year" value="2006"/>
+    </script>
+    <script key="tx_securities_board_civil_criminal_2005"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/tx_securities_board_civil_criminal.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ssb.state.tx.us/Enforcement/2005_Civil_and_Criminal_Actions.php"/>
+        <param name="year" value="2005"/>
+    </script>
+    <script key="tx_securities_board_civil_criminal_2004"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/tx_securities_board_civil_criminal.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ssb.state.tx.us/Enforcement/2004_Civil_and_Criminal_Actions.php"/>
+        <param name="year" value="2004"/>
+    </script>
+    <script key="tx_securities_board_civil_criminal_2002"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/tx_securities_board_civil_criminal.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ssb.state.tx.us/Enforcement/2002_Civil_and_Criminal_Actions.php"/>
+        <param name="year" value="2002"/>
+    </script>
+    <script key="tx_securities_board_civil_criminal_2001"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/tx_securities_board_civil_criminal.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ssb.state.tx.us/Enforcement/2001_Civil_and_Criminal_Actions.php"/>
+        <param name="year" value="2001"/>
+    </script>
+    <script key="tx_securities_board_civil_criminal_2000"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/tx_securities_board_civil_criminal.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.ssb.state.tx.us/Enforcement/2000_Civil_and_Criminal_Actions.php"/>
+        <param name="year" value="2000"/>
+    </script>
+
+    <script key="sc_real_estate_appraisers_board_actions"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/sc_real_estate_appraisers_board_actions.groovy?view=co"/>
+
+    <script key="ca_desist_and_refrain_subdivision"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ca_desist_and_refrain_subdivision.groovy?view=co"/>
+    <script key="qc_ca_most_wanted"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/qc_ca_most_wanted.groovy?view=co"/>
+    <script key="ia_real_estate_disciplinary_actions"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ia_real_estate_disciplinary_actions.groovy?view=co"/>
+    <script key="iran_iraq_arms_nonp_act_1992"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/iran_iraq_arms_nonp_act_1992.groovy?view=co"/>
+    <script key="us_ca_online_escrow_fraud_2008"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ca_online_escrow_fraud.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.corp.ca.gov/FSD/fraud/2008.asp"/>
+        <param name="year" value="2008"/>
+    </script>
+    <script key="us_ca_online_escrow_fraud_2007"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ca_online_escrow_fraud.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.corp.ca.gov/FSD/fraud/2007.asp"/>
+        <param name="year" value="2007"/>
+    </script>
+    <script key="us_ca_online_escrow_fraud_2006"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ca_online_escrow_fraud.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.corp.ca.gov/FSD/fraud/2006.asp"/>
+        <param name="year" value="2006"/>
+    </script>
+    <script key="us_ca_online_escrow_fraud_2005"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ca_online_escrow_fraud.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.corp.ca.gov/FSD/fraud/2005.asp"/>
+        <param name="year" value="2005"/>
+    </script>
+    <script key="us_ca_online_escrow_fraud_2004"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ca_online_escrow_fraud.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.corp.ca.gov/FSD/fraud/2004.asp"/>
+        <param name="year" value="2004"/>
+    </script>
+    <script key="fda_debarment"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/fda_debarment.groovy?view=co"/>
+    <script key="id_financial_actions_institutions"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/id_financial_actions.groovy?view=co">
+        <param name="indexUrl"
+               value="http://finance.idaho.gov/FinancialInstitutions/AdministrativeActions.aspx"/>
+        <param name="siteType" value="Financial Institutions"/>
+        <param name="baseUrl"
+               value="http://finance.idaho.gov/FinancialInstitutions/"/>
+    </script>
+    <script key="id_financial_actions_consumers"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/id_financial_actions.groovy?view=co">
+        <param name="indexUrl"
+               value="http://finance.idaho.gov/ConsumerFinance/AdministrativeActions.aspx"/>
+        <param name="siteType" value="Consumer Finance"/>
+        <param name="baseUrl"
+               value="http://finance.idaho.gov/ConsumerFinance/"/>
+    </script>
+    <script key="us_ca_ebs"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ca_ebs.groovy?view=co"/>
+    <script key="us_ga_re_suspensions"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ga_re.groovy?view=co">
+        <param name="type" value="suspensions"/>
+    </script>
+    <script key="us_ga_re_sanctions"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ga_re.groovy?view=co">
+        <param name="type" value="sanctions"/>
+    </script>
+    <script key="us_ga_re_oldsanctions"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ga_re.groovy?view=co">
+        <param name="type" value="oldsanctions"/>
+    </script>
+    <script key="us_md_re_appraisers"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_md_re_appraisers.groovy?view=co"/>
+    <script key="us_az_dept_of_fi_removals"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_az_dept_of_fi.groovy?view=co">
+        <param name="type" value="removals"/>
+    </script>
+    <script key="us_az_dept_of_fi_prohibition"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_az_dept_of_fi.groovy?view=co">
+        <param name="type" value="prohibition"/>
+    </script>
+    <script key="us_az_dept_of_fi_unlicensed"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_az_dept_of_fi.groovy?view=co">
+        <param name="type" value="unlicensed"/>
+    </script>
+    <script key="us_az_dept_of_fi_desist"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_az_dept_of_fi.groovy?view=co">
+        <param name="type" value="desist"/>
+    </script>
+    <script key="us_az_dept_of_fi_adjudicated"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_az_dept_of_fi.groovy?view=co">
+        <param name="type" value="adjudicated"/>
+    </script>
+    <script key="us_az_dept_of_fi_consent"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_az_dept_of_fi.groovy?view=co">
+        <param name="type" value="consent"/>
+    </script>
+    <script key="nigeria_efcc_most_wanted"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/nigeria_efcc_most_wanted.groovy?view=co"/>
+    <script key="us_il_professional_reg"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_il_professional_reg.groovy?view=co"/>
+    <script key="us_sec_pause_fake"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_sec_pause_list.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.sec.gov/investor/oiepauselistfake.htm"/>
+    </script>
+    <script key="us_sec_pause_list"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_sec_pause_list.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.sec.gov/investor/oiepauselist.htm"/>
+    </script>
+    <script key="us_state_dept_debarred"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_state_dept_debarred.groovy?view=co"/>
+    <script key="nz_terrorist"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/nz_terrorist.groovy?view=co"/>
+    <script key="us_ncdoj_most_wanted"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ncdoj_most_wanted.groovy?view=co"/>
+    <script key="us_tx_attorney_general"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_tx_attorney_general.groovy?view=co"/>
+    <script key="us_fl_most_wanted"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_fl_most_wanted.groovy?view=co"/>
+    <script key="us_af_office_special_investigation"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_af_office_special_investigation.groovy?view=co"/>
+    <script key="us_ny_banking_suspensions"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ny_banking_suspensions.groovy?view=co"/>
+    <script key="us_ak_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ak_sex_offenders.groovy?view=co"/>
+    <script key="us_al_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_al_sex_offenders.groovy?view=co"/>
+    <script key="us_ca_sex_offenders_2"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ca_sex_offenders.groovy?view=co"/>
+    <script key="us_or_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_or_sex_offenders.groovy?view=co"/>
+    <script key="hk_sfc_1997"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/hk_sfc.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.sfc.hk/sfcPressRelease/EN/sfcEnforceNewsServlet?inYear=1997"/>
+    </script>
+    <script key="hk_sfc_1998"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/hk_sfc.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.sfc.hk/sfcPressRelease/EN/sfcEnforceNewsServlet?inYear=1998"/>
+    </script>
+    <script key="hk_sfc_1999"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/hk_sfc.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.sfc.hk/sfcPressRelease/EN/sfcEnforceNewsServlet?inYear=1999"/>
+    </script>
+    <script key="hk_sfc_2000"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/hk_sfc.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.sfc.hk/sfcPressRelease/EN/sfcEnforceNewsServlet?inYear=2000"/>
+    </script>
+    <script key="hk_sfc_2001"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/hk_sfc.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.sfc.hk/sfcPressRelease/EN/sfcEnforceNewsServlet?inYear=2001"/>
+    </script>
+    <script key="hk_sfc_2002"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/hk_sfc.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.sfc.hk/sfcPressRelease/EN/sfcEnforceNewsServlet?inYear=2002"/>
+    </script>
+    <script key="hk_sfc_2003"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/hk_sfc.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.sfc.hk/sfcPressRelease/EN/sfcEnforceNewsServlet?inYear=2003"/>
+    </script>
+    <script key="hk_sfc_2004"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/hk_sfc.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.sfc.hk/sfcPressRelease/EN/sfcEnforceNewsServlet?inYear=2004"/>
+    </script>
+    <script key="hk_sfc_2005"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/hk_sfc.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.sfc.hk/sfcPressRelease/EN/sfcEnforceNewsServlet?inYear=2005"/>
+    </script>
+    <script key="hk_sfc_2006"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/hk_sfc.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.sfc.hk/sfcPressRelease/EN/sfcEnforceNewsServlet?inYear=2006"/>
+    </script>
+    <script key="hk_sfc_2007"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/hk_sfc.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.sfc.hk/sfcPressRelease/EN/sfcEnforceNewsServlet?inYear=2007"/>
+    </script>
+    <script key="hk_sfc_2008"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/hk_sfc.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.sfc.hk/sfcPressRelease/EN/sfcEnforceNewsServlet?inYear=2008"/>
+    </script>
+    <script key="hk_sfc_2009"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/hk_sfc.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.sfc.hk/sfcPressRelease/EN/sfcEnforceNewsServlet?inYear=2009"/>
+    </script>
+    <script key="hk_sfc_2010"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/hk_sfc.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.sfc.hk/sfcPressRelease/EN/sfcEnforceNewsServlet?inYear=2010"/>
+    </script>
+    <script key="hk_sfc_2011"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/hk_sfc.groovy?view=co">
+        <param name="indexUrl"
+               value="http://www.sfc.hk/sfcPressRelease/EN/sfcEnforceNewsServlet?inYear=2011"/>
+    </script>
+    <script key="us_dc_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_dc_sex_offenders.groovy?view=co"/>
+    <script key="us_de_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_de_sex_offenders.groovy?view=co"/>
+    <script key="us_me_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_me_sex_offenders.groovy?view=co"/>
+    <script key="us_nj_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_nj_sex_offenders.groovy?view=co"/>
+    <script key="us_nj_dcj_most_wanted_fugitives"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_nj_dcj_most_wanted_fugitives.groovy?view=co"/>
+    <script key="us_wv_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_wv_sex_offenders.groovy?view=co"/>
+    <script key="us_ny_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ny_sex_offenders.groovy?view=co"/>
+    <script key="us_wy_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_wy_sex_offenders.groovy?view=co">
+        <param name="state" value="Wyoming"/>
+        <param name="stateAbbreviation" value="WY"/>
+        <param name="baseUrl" value="http://wysors.dci.wyo.gov/sor/"/>
+        <param name="form" value="3"/>
+    </script>
+    <script key="us_ky_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_wy_sex_offenders.groovy?view=co">
+        <param name="state" value="Kentucky"/>
+        <param name="stateAbbreviation" value="KY"/>
+        <param name="baseUrl" value="http://kspsor.state.ky.us/sor/servlet/"/>
+        <param name="form" value="3"/>
+    </script>
+    <script key="us_id_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_wy_sex_offenders.groovy?view=co">
+        <param name="state" value="Idaho"/>
+        <param name="stateAbbreviation" value="ID"/>
+        <param name="baseUrl" value="http://www.isp.idaho.gov/sor_id/"/>
+        <param name="form" value="4"/>
+    </script>
+    <script key="us_ut_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/icrimewatch_sex_offenders.groovy?view=co">
+        <param name="agencyId" value="54438"/>
+        <param name="state" value="Utah"/>
+    </script>
+    <script key="us_wa_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/icrimewatch_sex_offenders.groovy?view=co">
+        <param name="agencyId" value="54528"/>
+        <param name="state" value="Washington"/>
+    </script>
+    <script key="us_la_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/icrimewatch_sex_offenders.groovy?view=co">
+        <param name="agencyId" value="54450"/>
+        <param name="state" value="Louisiana"/>
+    </script>
+    <script key="us_ar_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/icrimewatch_sex_offenders.groovy?view=co">
+        <param name="agencyId" value="54552"/>
+        <param name="state" value="Arkansas"/>
+    </script>
+    <script key="us_ct_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/icrimewatch_sex_offenders.groovy?view=co">
+        <param name="agencyId" value="54567"/>
+        <param name="state" value="Connecticut"/>
+    </script>
+
+    <script key="us_ks_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ks_sex_offenders.groovy?view=co"/>
+    <script key="us_nh_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_nh_sex_offenders.groovy?view=co"/>
+    <script key="us_sc_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_sc_sex_offenders.groovy?view=co"/>
+    <script key="us_nc_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_nc_sex_offenders.groovy?view=co"/>
+    <script key="us_tn_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_tn_sex_offenders.groovy?view=co"/>
+    <script key="us_tx_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_tx_sex_offenders.groovy?view=co"/>
+    <script key="in_mha_terror_orgs"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/in_mha_terror_orgs.groovy?view=co"/>
+    <script key="us_mt_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_mt_sex_offenders.groovy?view=co"/>
+    <script key="us_ri_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ri_sex_offenders.groovy?view=co"/>
+    <script key="us_ma_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ma_sex_offenders.groovy?view=co"/>
+    <script key="us_md_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_md_sex_offenders.groovy?view=co"/>
+    <script key="us_ga_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ga_sex_offenders.groovy?view=co"/>
+    <script key="us_in_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_in_sex_offenders.groovy?view=co"/>
+    <script key="us_il_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_il_sex_offenders.groovy?view=co"/>
+    <script key="Test"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/test.groovy?view=co"/>
+    <script key="us_wi_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_wi_sex_offenders.groovy?view=co"/>
+    <script key="us_ok_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ok_sex_offenders.groovy?view=co"/>
+    <script key="us_nm_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_nm_sex_offenders.groovy?view=co"/>
+    <script key="ca_mostwanted_fugitives"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/ca_mostwanted_fugitives.groovy?revision=21071"/>
+    <script key="lou_doj_most_wanted"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/lou_doj_most_wanted.groovy?revision=21070"/>
+    <script key="us_vt_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_vt_sex_offenders.groovy?view=co"/>
+    <script key="us_physician_misconduct_ny"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_physician_misconduct_ny.groovy?view=co"/>
+    <script key="us_nv_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_nv_sex_offenders.groovy?view=co"/>
+    <script key="us_hi_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_hi_sex_offenders.groovy?view=co"/>
+
+    <script key="asx_discipline_actions"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/asx_discipline_actions.groovy?view=co"/>
+    <script key="cftc_sanctions"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/cftc_sanctions.groovy?view=co"/>
+    <script key="apra_disqualification"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/apra_disqualification.groovy?view=co"/>
+    <script key="asic_enforceable_undertakings"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/asic_enforceable_undertakings.groovy?view=co"/>
+    <script key="asic_fake"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/asic_fake.groovy?view=co"/>
+    <script key="nsw_wanted"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/nsw_wanted.groovy?view=co"/>
+    <script key="queensland_mostwanted"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/queensland_mostwanted.groovy?view=co"/>
+
+    <script key="iran_connect"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/iran_connect.groovy?view=co">
+        <param name="indexUrl"
+               value="file:///RDC/Internal_Data/Scrape_Data/iran_connect/iran_connect.xls"/>
+    </script>
+
+    <script key="rba_annex"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/rba_annex.groovy?view=co"/>
+    <script key="us_ny_medical_conduct"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_ny_medical_conduct.groovy?view=co"/>
+    <script key="nysed_discipline_summaries"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/nysed_discipline_summaries.groovy?view=co"/>
+
+    <script key="rdc_test_black_list"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/black_list.groovy?view=co">
+        <param name="indexUrl"
+               value="file:////RDC/Internal_Data/Scrape_Data/black_lists/rdc_test_black_list.xls"/>
+        <param name="isBlackList" value="true"/>
+    </script>
+
+    <script key="rdc_test_black_list_2"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/black_list.groovy?view=co">
+        <param name="indexUrl"
+               value="file:////RDC/Internal_Data/Scrape_Data/black_lists/rdc_test_black_list.xls"/>
+        <param name="isBlackList" value="true"/>
+    </script>
+
+    <script key="mg_agent_term_black_list"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/black_list.groovy?view=co">
+        <param name="indexUrl"
+               value="file:////RDC/Internal_Data/Scrape_Data/black_lists/black_list_from_agent_term_database.xls"/>
+        <param name="isBlackList" value="true"/>
+    </script>
+
+    <script key="btmu_black_list"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/btmu_black_list.groovy?view=co">
+        <param name="indexUrl"
+               value="file:///RDC/Client_Data/Scrape_Data/black_lists/rdc-bl-btmu/"/>
+        <param name="isBlackList" value="true"/>
+        <param name="ftpUser" value="rdc-bl-btmu"/>
+        <param name="ftpPassword" value="Fh3ycXp^"/>
+        <param name="firmNumber" value="TM02000P"/>
+    </script>
+
+    <script key="convergEx_black_list"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/convergEx_black_list.groovy?view=co">
+        <param name="indexUrl"
+               value="file:///RDC/Client_Data/Scrape_Data/black_lists/rdc-bl-cx/"/>
+        <param name="isBlackList" value="true"/>
+        <param name="ftpUser" value="rdc-bl-cx"/>
+        <param name="ftpPassword" value="0mDz5,;r"/>
+        <param name="firmNumber" value="CX02000P"/>
+    </script>
+
+    <script key="lpl_black_list"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/lpl_black_list.groovy?view=co">
+        <param name="indexUrl"
+               value="file:///RDC/Client_Data/Scrape_Data/black_lists/rdc-bl-lpl/"/>
+        <param name="isBlackList" value="true"/>
+        <param name="ftpUser" value="rdc-bl-lpl"/>
+        <param name="ftpPassword" value="4BCHo1$x"/>
+        <param name="firmNumber" value="LP01000P "/>
+    </script>
+
+    <script key="lpl_314a"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/finsen_314.groovy?view=co">
+        <param name="indexUrl"
+               value="file:///RDC/Internal_Data/Scrape_Data/black_lists/lpl-314a/FincenTEST011112.xls"/>
+        <param name="isBlackList" value="true"/>
+    </script>
+
+
+    <datalist key="org_tokens"
+              url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_datalist/org_tokens.txt?view=co"/>
+    <datalist key="org_contains"
+              url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_datalist/org_contains.txt?view=co"/>
+    <script key="ignore_interrupt_test"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/test.groovy?revision=22230"/>
+    <script key="us_fl_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_fl_sex_offenders.groovy?view=co"/>
+
+    <script key="us_me_rec_licensee_actions"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_me_licensee_actions.groovy?view=co">
+        <param name="licenseType" value="REAL ESTATE COMMISSION"/>
+    </script>
+    <script key="us_me_rea_licensee_actions"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/us_me_licensee_actions.groovy?view=co">
+        <param name="licenseType" value="REAL ESTATE APPRAISERS"/>
+    </script>
+    <script key="brazil_mol_exploit_slave"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/brazil_mol_exploit_slave.groovy?view=co"/>
+
+    <!-- Connotate Lists -->
+    <!-- First wave -->
+    <script key="connotate_doj_antitrust"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName" value="Connotate_DoJ_AntiTrust_Filings.xml"/>
+    </script>
+    <script key="connotate_sd_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName" value="Connotate_SD_Sex_Offenders.xml"/>
+    </script>
+    <script key="connotate_oh_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName" value="Connotate_OH_Sex_Offenders.xml"/>
+    </script>
+
+    <script key="connotate_british_columbia_sec_comm_disciplined_persons_list"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_British_Columbia_Sec_Comm_Disciplined_Persons_List.xml"/>
+    </script>
+
+    <script key="connotate_canada_alberta"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName" value="Connotate_Canada_Alberta.xml"/>
+    </script>
+
+    <script key="connotate_canada_investment_regulatory"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_Canada_Investment_Regulatory.xml"/>
+    </script>
+
+    <script key="connotate_canada_list_of_designated_persons_special_economic_measures_zimba"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_Canada_List_of_Designated_Persons_Special_Economic_Measures_Zimba.xml"/>
+    </script>
+
+    <script key="connotate_ms_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName" value="Connotate_MS_Sex_Offenders.xml"/>
+    </script>
+
+    <script key="connotate_ny_state_department_of_labor_bureau"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_NY_State_Department_of_Labor_Bureau.xml"/>
+    </script>
+
+    <script key="connotate_us_federal_energy_commission"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_US_Federal_Energy_Commission.xml"/>
+    </script>
+
+    <script key="connotate_chicago_board_options_exchange"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_Chicago_Board_Options_Exchange_actions.xml"/>
+    </script>
+
+    <script key="connotate_ontario_securities_commission_proceedings"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_Ontario_Securities_Commission_Proceedings.xml"/>
+    </script>
+
+    <script key="connotate_ne_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName" value="Connotate_NE_Sex_Offenders.xml"/>
+    </script>
+
+    <script key="connotate_chicago_stock_exchange"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_Chicago_Stock_Exchange_disciplinary_orders.xml"/>
+    </script>
+
+    <script key="connotate_us_federal_reserve_board_enforcement_actions"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_US_Federal_Reserve_Board_Enforcement_Actions.xml"/>
+    </script>
+
+    <!-- Second Wave -->
+    <script key="connotate_asian_development_bank_sanctioned_and_debarred_entities"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_Asian_Development_Bank_Sanctioned_and_Debarred_Entities.xml"/>
+    </script>
+
+    <script key="connotate_az_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName" value="Connotate_AZ_Sex_Offenders.xml"/>
+    </script>
+
+    <script key="connotate_belgium_banking_finance_and_insurance_commission_financial_instrument"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_Belgium_Banking_Finance_Insurance_Commission_Financial_Instrument.xml"/>
+    </script>
+
+    <script key="connotate_canada_edmonton_police_most_wanted"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_Canada_Edmonton_Police_Most_Wanted.xml"/>
+    </script>
+
+    <script key="connotate_canada_toronto_police_most_wanted"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_Canada_Toronto_Police_Most_Wanted.xml"/>
+    </script>
+
+    <script key="connotate_inter_american_development_bank"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_Inter-American_Development_Bank_Sanctioned_Firms_and_Individuals.xml"/>
+    </script>
+
+    <script key="connotate_mn_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName" value="Connotate_MN_Sex_Offenders.xml"/>
+    </script>
+
+    <script key="connotate_national_futures_association_registration_and_enforcement_actions"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_National_Futures_Association_Registration_and_Enforcement_Actions.xml"/>
+    </script>
+
+    <script key="connotate_nd_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName" value="Connotate_ND_Sex_Offenders.xml"/>
+    </script>
+
+    <script key="connotate_uae_dubai_financial_services_authority_regulatory_actions"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_UAE_Dubai_Financial_Services_Authority_Regulatory_Actions.xml"/>
+    </script>
+
+    <script key="connotate_co_sex_offenders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName" value="Connotate_CO_Sex_Offenders.xml"/>
+    </script>
+
+    <script key="connotate_european_bank_for_reconstruction_and_development_list_of_ineligib"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_European_Bank_for_Reconstruction_and_Development_List_of_Ineligib.xml"/>
+    </script>
+
+    <!-- Third wave -->
+    <script key="connotate_japan_securities_and_exchange_surveillance_commission"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_Japan_Securities_and_Exchange_Surveillance_Commission_Recommendat.xml"/>
+    </script>
+
+    <script key="connotate_hungary_financial_supervisory_authority_warning_notices"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_Hungary_Financial_Supervisory_Authority_Warning_Notices.xml"/>
+    </script>
+
+
+    <script key="connotate_austrian_financial_market_authority_international_investor_warnin"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_Austrian_Financial_Market_Authority_International_Investor_Warnin.xml"/>
+    </script>
+
+    <script key="connotate_portugal_securities_market_commission"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_Portugal_Securities_Market_Commission.xml"/>
+    </script>
+
+    <script key="connotate_portugal_securities_market_commission_administrative_infractions"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_Portugal_Securities_Market_Commission_Administrative_Infractions_.xml"/>
+    </script>
+
+    <script key="connotate_south_africa_financial_services_board_enforcement_actions"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_South_Africa_Financial_Services_Board_Enforcement_Actions.xml"/>
+    </script>
+
+    <script key="connotate_us_health_human_services_oig_corporate_integrity_agreements"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_US_Health_Human_Services_OIG_Corporate_Integrity_Agreements.xml"/>
+    </script>
+
+    <script key="connotate_aus_securities_investment_commission_list_unlicensed_overseas_com"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_Aus_Securities_Investment_Commission_List_Unlicensed_Overseas_Com.xml"/>
+    </script>
+
+    <script key="connotate_israel_securities_authority_advisors"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_Israel_Securities_Authority_Advisors_and_Portfolio_Managers Disci.xml"/>
+    </script>
+
+    <script key="connotate_isa_criminal_cases_for_market_abuse"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_ISA_Criminal_Cases_for_Market_Abuse.xml"/>
+    </script>
+
+    <script key="connotate_isa_insider_trading_indictments"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_ISA_Insider_Trading_Indictments.xml"/>
+    </script>
+
+    <script key="connotate_sweden_financial_supervisory_authority_investor_alerts"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_Sweden_Financial_Supervisory_Authority_Investor_Alerts.xml"/>
+    </script>
+
+    <script key="connotate_malaysia_securities_commission_civil_criminal_and_administrative"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_Malaysia_Securities_Commission_Civil_Criminal_and_Administrative_.xml"/>
+    </script>
+
+    <!-- Forth Wave-->
+    <script key="connotate_reserve_bank_aust_iran_financial_sanctions_not_already_listed_un"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_Reserve_Bank_Aust_Iran_Financial_Sanctions_Not_Already_Listed_UN.xml"/>
+    </script>
+
+    <script key="connotate_austrac_enforceable_undertakings"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_AUSTRAC_Enforceable_Undertakings.xml"/>
+    </script>
+
+    <script key="connotate_canada_border_services_agency_wtd_human_rights_violations"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_Canada_Border_Services_Agency_WTD_Human_Rights_Violations.xml"/>
+    </script>
+
+    <script key="connotate_denmark_financial_supervisory_authority_warnings_from_other_super"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_Denmark_Financial_Supervisory_Authority_Warnings_From_Other_Super.xml"/>
+    </script>
+
+    <script key="connotate_gibraltar_financial_services_commission_warnings_consumers"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_Gibraltar_Financial_Services_Commission_Warnings_Consumers.xml"/>
+    </script>
+
+    <script key="connotate_south_african_police_service_most_wanted"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_South_African_Police_Service_Most_Wanted.xml"/>
+    </script>
+
+    <script key="connotate_ny_banking_department_mortgage_bank_enforce_action_revocation_ord"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_NY_Banking_Department_Mortgage_Bank_Enforce_Action_Revocation_Ord.xml"/>
+    </script>
+
+    <script key="connotate_us_public_accounting_oversight_board_settled_disciplinary_orders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_US_Public_Accounting_Oversight_Board_Settled_Disciplinary_Orders.xml"/>
+    </script>
+
+    <script key="connotate_us_public_company_accounting_oversight_board_adjudicated_discipli"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_US_Public_Company_Accounting_Oversight_Board_Adjudicated_Discipli.xml"/>
+    </script>
+
+    <script key="connotate_sitzerland_blacklist"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName" value="Connotate_Switzerland_Blacklist.xml"/>
+    </script>
+
+    <!-- Fifth  Wave -->
+    <script key="connotate_al_securities_department_administrative_actions"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_AL_Securities_Department_Administrative_Actions.xml"/>
+    </script>
+
+    <script key="connotate_fl_office_insurance_regulation_regulatory_actions_against_discoun"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_FL_Office_Insurance_Regulation_Regulatory_Actions_Against_Discoun.xml"/>
+    </script>
+
+    <script key="connotate_fl_insurance_regulation_unlicensed_entities_shut_down_office"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_FL_Insurance_Regulation_Unlicensed_Entities_Shut_Down_Office.xml"/>
+    </script>
+
+    <script key="connotate_malaysia_securities_commission_criminal_prosecutions"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_Malaysia_Securities_Commission_Criminal_Prosecutions.xml"/>
+    </script>
+
+    <script key="connotate_tx_dept_insurance_disciplinary_orders"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_TX_Dept_Insurance_Disciplinary_Orders.xml"/>
+    </script>
+
+    <script key="connotate_ca_department_of_insurance_formal_enforcement_actions"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_CA_Department_of_Insurance_Formal_Enforcement_Actions.xml"/>
+    </script>
+
+    <script key="connotate_new_zealand_financial_markets_authority_overseas_firms_warning_no"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_New_Zealand_Financial_Markets_Authority_Overseas_Firms_Warning_No.xml"/>
+    </script>
+
+    <script key="connotate_us_federal_trade_commission_actions"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_US_Federal_Trade_Commission_Actions.xml"/>
+    </script>
+
+    <script key="connotate_us_dept_housing_urban_development_civil_money_penalties"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_US_Dept_Housing_Urban_Development_Civil_Money_Penalties.xml"/>
+    </script>
+
+    <script key="connotate_icty_war_crimes_tribunal_judgment_list"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_ICTY_War_Crimes_Tribunal_Judgment_List.xml"/>
+    </script>
+
+    <script key="connotate_ca_department_of_corporations_enforcement_actions"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_CA_Department_of_Corporations_Enforcement_Actions.xml"/>
+    </script>
+
+    <script key="connotate_fl_office_insurance_life_health"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_FL_Office_Insurance_Regulation_Investigations_Life_Health Insuran.xml"/>
+    </script>
+
+    <script key="connotate_fl_insurance_regulatory_actions_against_property_casualty_compani"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_FL_Insurance_Regulatory_Actions_Against_Property_Casualty_Compani.xml"/>
+    </script>
+
+    <script key="connotate_fl_office_insurance_reg_regulatory_actions_against_hmos"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_FL_Office_Insurance_Reg_Regulatory_Actions_Against_HMOs.xml"/>
+    </script>
+
+    <script key="connotate_ny_state_banking_department_mortgage_banking_enforcement_action"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_NY_State_Banking_Department_Mortgage_Banking_Enforcement_Action.xml"/>
+    </script>
+
+    <script key="connotate_american_institute_of_cpas_disciplinary_actions"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_American_Institute_of_CPAs_Disciplinary_Actions.xml"/>
+    </script>
+
+    <script key="connotate_canada_gov_special_econ_measures_iran_reg_schedule"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_Canada_Gov_Special_Econ_Measures_Iran_Reg_Schedule_1.xml"/>
+    </script>
+
+    <script key="connotate_us_marshals_service_captured_fugitives"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_US_Marshals_Service_Captured_Fugitives.xml"/>
+    </script>
+
+    <script key="connotate_un_international_criminal_tribunal_rwanda_acquitted_detainees"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_UN_International_Criminal_Tribunal_Rwanda_Acquitted_Detainees.xml"/>
+    </script>
+
+    <script key="connotate_un_international_criminal_tribunal_rwanda_completed_case"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_UN_International_Criminal_Tribunal_Rwanda_Completed_Case.xml"/>
+    </script>
+
+    <script key="connotate_un_special_court_for_sierra_leone_indictments"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/connotate.groovy?view=co">
+        <param name="fileName"
+               value="Connotate_UN_Special_Court_for_Sierra_Leone_Indictments.xml"/>
+    </script>
+
+    <script key="interpol_delta"
+            url="http://10.20.40.10/viewvc/java/list_importer/trunk/src/main/resources/scrapian_scripts/interpol_delta.groovy?view=co">
+        <param name="indexUrl"
+               value="file:///RDC/Internal_Data/List_Importer/data/connotate/Interpol_Delta/interpol_connotate_delta.xls"/>
+    </script>
+    <!-- End Connotate Lists -->
+
+</scrapian>
+
